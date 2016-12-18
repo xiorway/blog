@@ -1,0 +1,90 @@
+/*
+ Theme Name:   Start Child
+ Theme URI:    http://example.com/start-child/
+ Description:  Start Child Theme
+ Author:       Webkeypers
+ Author URI:   http://example.com
+ Template:     start
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  start-child
+*/
+@font-face {
+    font-family: Kirvy-bold;
+    src: url('fonts/kirvy/Kirvy-Bold.otf');
+}
+
+@font-face {
+    font-family: Kirvy-light;
+    src: url('fonts/kirvy/Kirvy-Light.otf');
+}
+
+@font-face {
+    font-family: Kirvy-regular;
+    src: url('fonts/kirvy/Kirvy-Regular.otf');
+}
+
+@font-face {
+    font-family: Kirvy-thin;
+    src: url('fonts/kirvy/Kirvy-Thin.otf');
+}
+
+/** @media (min-width: 992px) {
+    .container {
+        width: 1370px;
+    }
+}*/
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    margin: 0 0 0 -10px;
+}
+
+h3, h4, h5, h6, summary {
+    font-family: Kirvy-light;
+}
+
+h2, p, a {
+    font-family: Kirvy-regular;
+}
+
+li > a {
+    font-size: 13px;
+}
+
+h1 {
+    font-family: Kirvy-bold;
+}
+
+.site-footer, .site-header {
+    background: #262626;
+}
+
+a, a:visited {
+    color: #cc0000
+}
+
+a:hover {
+    color: #262626;
+    text-decoration: none;
+}
+
+main h4 a, main h4 a:visited {
+    color: #262626
+}
+
+.site-footer *, .site-footer a:visited, .site-header *, .site-header a:visited {
+    color: #f9f9f9;
+}
+
+body {
+    background-color: #f9f9f9;
+}

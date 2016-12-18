@@ -1,0 +1,156 @@
+[24-Oct-2016 17:50:05 UTC] WordPress errore database Unknown column '$id' in 'where clause' per la query SELECT * FROM xwy_custom_events WHERE ID=$id
+[24-Oct-2016 18:04:41 UTC] WordPress errore database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 per la query SELECT * FROM xwy_custom_events WHERE ID=
+[25-Oct-2016 15:51:50 UTC] WordPress database error Column 'ID' in where clause is ambiguous for query 
+          SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.id
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.id
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.id
+          WHERE ID=1
+[25-Oct-2016 15:52:04 UTC] WordPress database error Column 'ID' in where clause is ambiguous for query 
+          SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.id
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.id
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.id
+          WHERE ID=5
+[25-Oct-2016 16:06:35 UTC] WordPress database error Unknown column 'events_select_country' in 'where clause' for query SELECT * FROM xwy_custom_events_cities WHERE country_id=events_select_country
+[01-Nov-2016 16:28:43 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND data_inizio>= AND data_fine<=' at line 4 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID  WHERE country_id=6 AND city_id= AND data_inizio>= AND data_fine<=
+[02-Nov-2016 22:12:20 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=6' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=6
+[02-Nov-2016 22:12:26 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=6' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=6
+[02-Nov-2016 22:12:45 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=6' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=6
+[03-Nov-2016 00:33:43 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=6 AND city_id=9' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=6 AND city_id=9
+[04-Nov-2016 22:16:55 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=6 AND city_id=8 AND data_inizio<='2016-11-04' AND data_fine<='2' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=6 AND city_id=8 AND data_inizio<='2016-11-04' AND data_fine<='2016-11-06'
+[05-Nov-2016 13:43:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=1 AND data_inizio<='2016-07-08' AND data_fine<='2016-11-04'' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=1 AND data_inizio<='2016-07-08' AND data_fine<='2016-11-04'
+[05-Nov-2016 13:43:56 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=1 AND data_inizio<='2016-07-08' AND data_fine<='2016-11-04'' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=1 AND data_inizio<='2016-07-08' AND data_fine<='2016-11-04'
+[05-Nov-2016 13:44:05 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=1 AND city_id=1 AND data_inizio<='2016-07-08' AND data_fine<='2' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=1 AND city_id=1 AND data_inizio<='2016-07-08' AND data_fine<='2016-11-04'
+[05-Nov-2016 13:44:16 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=1 AND city_id=1 AND data_inizio<='2016-07-08' AND data_fine<='2' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=1 AND city_id=1 AND data_inizio<='2016-07-08' AND data_fine<='2016-11-04'
+[05-Nov-2016 13:44:26 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=1 AND city_id=1 AND data_inizio<='2016-07-08' AND data_fine<='2' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=1 AND city_id=1 AND data_inizio<='2016-07-08' AND data_fine<='2016-11-04'
+[05-Nov-2016 13:44:34 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=1 AND city_id=1 AND data_inizio<='2016-07-08' AND data_fine<='2' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=1 AND city_id=1 AND data_inizio<='2016-07-08' AND data_fine<='2016-11-04'
+[06-Nov-2016 15:47:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=1' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=1
+[06-Nov-2016 15:49:55 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=2' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=2
+[06-Nov-2016 15:50:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE country_id=2' at line 5 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID 
+          LIMIT 0, 6 WHERE country_id=2
+[06-Nov-2016 16:27:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations' at line 1 for query  FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID
+          WHERE LOWER(events.titolo) like '%wint%' 
+          OR LOWER(cities.city) like '%wint%' 
+          OR LOWER(countries.country) like '%wint%' 
+          OR LOWER(locations.location) like '%wint%'  LIMIT 0, 6 
+[06-Nov-2016 16:28:16 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations' at line 1 for query  FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID
+          WHERE LOWER(events.titolo) like '%win%' 
+          OR LOWER(cities.city) like '%win%' 
+          OR LOWER(countries.country) like '%win%' 
+          OR LOWER(locations.location) like '%win%'  LIMIT 0, 6 
+[06-Nov-2016 16:28:17 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations' at line 1 for query  FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID
+          WHERE LOWER(events.titolo) like '%w%' 
+          OR LOWER(cities.city) like '%w%' 
+          OR LOWER(countries.country) like '%w%' 
+          OR LOWER(locations.location) like '%w%'  LIMIT 0, 6 
+[06-Nov-2016 17:13:02 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY data_inizio' at line 4 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID  WHERE data_inizio<='2016-11-06' LIMIT 0, 6 ORDER BY data_inizio 
+[06-Nov-2016 17:14:22 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY data_inizio' at line 4 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID  WHERE data_inizio<='2016-11-06' LIMIT 0, 6 ORDER BY data_inizio 
+[06-Nov-2016 17:14:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY data_inizio' at line 4 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID  WHERE data_inizio<='2016-11-06' LIMIT 0, 6 ORDER BY data_inizio 
+[06-Nov-2016 17:15:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY data_inizio' at line 4 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID  WHERE data_inizio>='2016-11-06' LIMIT 0, 6 ORDER BY data_inizio 
+[06-Nov-2016 18:11:47 UTC] WordPress database error Unknown column 'events.location_id' in 'on clause' for query SELECT count(*) as cnt  FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID  WHERE data_inizio>='2016-11-06'
+[06-Nov-2016 18:11:47 UTC] WordPress database error Unknown column 'events.location_id' in 'on clause' for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID  WHERE data_inizio>='2016-11-06' ORDER BY data_inizio LIMIT 0, 6 
+[06-Nov-2016 18:18:40 UTC] WordPress database error Unknown column 'events.location_id' in 'on clause' for query 
+          SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_locations as locations ON events.location_id=locations.ID
+          LEFT JOIN xwy_custom_events_cities as cities ON locations.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID
+          WHERE events.ID=10
+[06-Nov-2016 21:06:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-6, 6' at line 3 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_cities as cities ON events.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID  WHERE country_id=3 AND data_inizio>='2016-11-06' ORDER BY data_inizio LIMIT -6, 6 
+[23-Nov-2016 00:15:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-6, 6' at line 7 for query SELECT * FROM xwy_custom_events as events
+          LEFT JOIN xwy_custom_events_cities as cities ON events.city_id=cities.ID
+          LEFT JOIN xwy_custom_events_countries as countries ON cities.country_id=countries.ID
+          WHERE LOWER(events.titolo) like '%bolgia%' 
+          OR LOWER(events.descrizione) like '%bolgia%' 
+          OR LOWER(cities.city) like '%bolgia%' 
+          OR LOWER(countries.country) like '%bolgia%'  ORDER BY data_inizio LIMIT -6, 6 
